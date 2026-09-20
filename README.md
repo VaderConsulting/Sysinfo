@@ -1,6 +1,6 @@
 # Sysinfo
 
-VB6 working copy of `Sysinfo` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Project1. `VersionCompanyName`: Chips, Bits and Bytes.
+VB6 system-info demo shell (`Sysinfo.vbp`): hosts System Monitor OCX plus task-scheduler, Winsock, dir-walk, and related ActiveX controls for server/sysinfo UI experiments. Open `Sysinfo.vbp` in the VB6 IDE (needs those OCXs installed).
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -10,31 +10,4 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `Project1` (`Sysinfo.vbp`) | VB6 | WinForms exe | Project1 |
-
-## How to open
-
-Open the `.vbp` in Visual Basic 6.0 IDE:
-- `Sysinfo.vbp`
-
-## Requirements
-
-- Visual Basic 6.0 IDE
-- Registered OCX/DLL dependencies referenced by the `.vbp` (may need to be installed separately):
-  - `Popup.ocx`
-  - `VCMAXB.OCX`
-  - `cswsk32.ocx`
-  - `dirwalk2.ocx`
-  - `dmview.ocx`
-  - `docprop2.dll`
-  - `sysmon.ocx`
-  - `tasksched.ocx`
-
-## Attribution and provenance
-
-Working copy from Dave Robinson's OneDrive Historical Dev folder `VB/Old/Sysinfo`.
-Company names in project files: Chips, Bits and Bytes.
-
-## License
-
-MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
+| `Project1` (`Sysinfo.vbp`) | VB6 | WinForms exe | SystemMonitor/OCX sysinfo host form |
